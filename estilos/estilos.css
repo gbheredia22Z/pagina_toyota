@@ -22,4 +22,34 @@
     font-family: Qatar2022-Bold;
     src: url(../fuentes/Qatar2022-Bold.otf);
 }
+body{
+    font-family: HisenseAlfabet-Regular;
+}
 
+.logo{
+    width: 100%;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+   
+}
+
+.container{
+    margin-left: 35px; 
+}
+
+.navbar>.container{
+    justify-content: flex-start;
+}
+.navbar-brand{
+    width: 100px;
+}
+.nav-item{
+    margin-left: 50px;
+    font-size: 13px; 
+}
+
+.nav-link{
+    color: black;
+}
