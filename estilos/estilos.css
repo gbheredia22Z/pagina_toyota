@@ -1,0 +1,25 @@
+@font-face {
+    font-family: HisenseAlfabet-Bold;
+    src: url(../fuentes/HisenseAlfabet-Bold.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Light;
+    src: url(../fuentes/HisenseAlfabet-Light.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Medium;
+    src: url(../fuentes/HisenseAlfabet-Medium.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Regular;
+    src: url(../fuentes/HisenseAlfabet-Regular.otf);
+}
+
+@font-face {
+    font-family: Qatar2022-Bold;
+    src: url(../fuentes/Qatar2022-Bold.otf);
+}
+
