@@ -5,99 +5,314 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
   <link rel="stylesheet" href="estilos/estilos.css">
+  <link rel="stylesheet" href="estilos/responsive.css">
   <title>Hisense</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container" id="nav">
+
+  <nav class="navbar navbar-expand-lg bg-light" id="header">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="img/hisense_logo.svg" alt="Bootstrap" class="logo">
+        <img src="img/hisense_logo.svg" alt="Hisense" class="logo">
       </a>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">TV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Aires Acondicionados</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Congeladores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Refrigeradoras</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="busqueda">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Aires Acondicionados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Congeladores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Refrigeradoras</a>
+          </li>
+          <li class="nav-item" id="itm">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+
+          <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+
+          <div class="modal fade" id="exampleModal" tabindex="11" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalScrollableTitle">Buscador</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="d-flex" id="d-flex" role="search">
+                    <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </ul>
+      </div>
     </div>
   </nav>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/FONDO portada hisense.jpg" class="d-block w-100" alt="...">
+        <img src="img/fondo-hisense.png" class="d-block w-100" alt="...">
       </div>
     </div>
   </div>
 
-  <p class="h1 text-center" id="hisense">HISENSE <strong style="color:#00B2AB">LIFE IS REMAINNIG</strong></p> 
   <div class="container text-center">
-    <div class="row pb-3">
-      <div class="col">
-        <div class="card">
-          <img src="Links/Aire acondicionado handsome-man-working-with-laptop-on-sofa-with-air-2021-08-29-22-51-37-utc.jpg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title" >Aire Acondicionado</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row pb-3">
-      <div class="col">
-        <div class="card">
-          <img src="Links/Copia de 11.AI Picture.jpg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row pb-3">
-      <div class="col">
-        <div class="card">
-          <img src="Links/Copia de 11.AI Picture.jpg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
+    <p class="h1 " id="hisense">HISENSE <strong style="color:#00B2AB">LIFE IS REIMAGINED</strong></p>
   </div>
+
   <div class="container text-center">
+    <div class="row pb-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/tv.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title pt-4"><strong>TV</strong>
+            </h5>
+            <div class="container">
+
+              <p class="">TV<br> HS-55U60H UHD 4K</p>
+              <a href="#" class="btn btn-primary" role="button">Ver
+                más</a>
+              <a href="#">Ver todos los televisores</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pb-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/aire.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title pt-4"><strong style="color: white;">AIRE
+                ACONDICIONADO</strong>
+            </h5>
+            <div class="container">
+              <p class="">AIRE ACONDICIONADO <br> HS-AC-24I</p>
+              <a href="#" class="btn btn-primary" role="button">Ver
+                más</a>
+              <a href="">Ver todos los aires acondicionados</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pb-3">
+      <div class="col">
+        <div class="card">
+          <img src="img/congelador.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title pt-4"><strong style="color: white;">CONGELADOR</strong>
+            </h5>
+            <div class="container" id="top-text">
+              <p class="" id="texto-card">CONGELADOR <br> HS-FC148W</p>
+              <a href="#" class="btn btn-primary" role="button" id="ver-mas">Ver
+                más</a>
+              <a href="" id="enlace-ver">Ver todos los congeladores</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
         <div class="card">
-          <img src="Links/Copia de 11.AI Picture.jpg" class="card-img" alt="...">
+          <img src="img/refrigerador.png" class="card-img" alt="...">
           <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            <h5 class="card-title pt-4" id="cl"><strong style="color: white;">REFRIGERADORA</strong>
+            </h5>
+            <div class="container" id="top-text">
+              <p class="" id="texto-card">REFRIGERADORA <br> HS-RR032H</p>
+              <a href="#" class="btn btn-primary" role="button" id="ver-mas">Ver
+                más</a>
+              <a href="" id="enlace-ver">Ver todos los refrigeradores</a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="h1 text-center" id="hisense">EXPERIENCIAS QUE TRANSFORMAN<strong style="color:#00B2AB"> TU DÍA A
+        DÍA</strong></p>
+  </div>
+
+  <div class="container text-center" id="content">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="img/vidaa.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <img src="img/vidaa_logo.svg" id="vidaa">
+            <h5 class="card-title" id="titulo-vd">TECNOLOGÍA HISENSE</h5>
+            <p class="card-text" id="txt-vidaa">Los televisores Hisense con
+              sistema operativo VIDAA ofrecen un acceso
+              instantáneo y personalizado a tus series y aplicaciones favoritas
+              como Netflix, Prime Video, YouTube y
+              muchas más. VIDAA tiene como centro de la experiencia al usuario y
+              es la forma más intuitiva para que
+              las personas interactúen con su televisor, centrándose en el
+              contenido y los servicios en lugar de las
+              aplicaciones y la tecnología.
+            </p>
+            <a href="#" class="btn btn-primary" role="button" id="boton-vida">Ver
+              más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="trix">
+      <div class="col-md-4"  id="col">
+        <div class="card" id="experiencias">
+          <img src="img/imagen-1.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay d-flex">
+            <div id="card-titulo">
+              <h5 class="card-title" id="titulo"><strong style="color: white;">Patrocinador
+                  oficial Fifa World Cup
+                  Qatar 2022</strong></h5>
+            </div>
+            <div>
+              <a href="#" class="btn btn-primary" role="button" id="boton-ex">Ver
+                más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="col">
+        <div class="card" id="experiencias">
+          <img src="img/imagen-2.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay d-flex">
+            <div id="card-titulo">
+              <h5 class="card-title" id="titulo"><strong style="color: white;">Las
+                  plataformas de streaming ¿cuál es tu favorita?</strong></h5>
+            </div>
+            <div>
+              <a href="#" class="btn btn-primary" role="button" id="boton-ex">Ver
+                más</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="col">
+        <div class="card" id="experiencias">
+          <img src="img/imagen-3.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay d-flex">
+            <div id="card-titulo">
+              <h5 class="card-title" id="titulo"><strong style="color: white;">¿Cuánto
+                  tiempo duran los alimentos preparados
+                  en el refrigerador?</strong></h5>
+            </div>
+            <div>
+              <a href="#" class="btn btn-primary" role="button" id="boton-ex">Ver
+                más</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <p class="h1 text-center" id="hisense">EXPERIENCIAS QUE TRANSFORMAN<strong style="color:#00B2AB"> TU DÍA A DÍA</strong></p> 
+  <div class="suscripcion">
+    <div class="parrafo">
+      <p>MANTENTE AL DÍA CON</p>
+      <img src="img/hisense_logo_w.svg" class="logo-w">
+    </div>
+    <div>
+      <form class="buttonIn" role="search">
+        <input class="form-control me-2" type="search" placeholder="Tu e-mail" aria-label="Search">
+        <button class="suscribe" id="clear">Suscribete</button>
+    </div>
+
+  </div>
+
+  <div>
+    <img src="img/hisense_logo.svg" class="tittle">
+    <a href="" class="ico" id="ico"><img src="img/ico-fb.svg"></a>
+    <a href="" class="ico"><img src="img/ico_itg.svg"></a>
+  </div>
+  <hr>
+  <div class="container text-left pb-5">
+    <div class="row" id="conten">
+      <div class="col">
+        <h4 class="title-left" style="color: black; font-family:
+              HisenseAlfabet-Bold;">ELECTRODOMÉSTICOS</h4>
+        <p class="text-start">
+          <a href="">Televisores</a><br>
+          <a href="">Aires Acondicionados</a> <br>
+          <a href="">Congeladores</a> <br>
+          <a href="">Refrigeradores</a> <br>
+        </p>
+      </div>
+
+      <div class="col">
+        <h4 class="title-left" style="color: black; font-family:
+              HisenseAlfabet-Bold;">SOBRE HISENSE</h4>
+        <p class="text-start">
+          <a href="">Visión General</a> <br>
+          <a href="">Valores </a><br>
+          <a href="">Blog</a>
+        </p>
+      </div>
+      <div class="col">
+        <h4 class="title-left" style="color:black; font-family:
+              HisenseAlfabet-Bold;">SOPORTE</h4>
+        <p class="text-start">
+          <a href="">Contacto<br>
+            <a href=""> Centro de Atención al Cliente <br>
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <div class="terminos">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="">Términos y Condiciones</a>
+          </div>
+          <div class="col">
+            <a href="">Políticas de cookies</a>
+          </div>
+          <div class="col">
+            <a href="">Políticas de Privacidad</a>
+          </div>
+          <div class="col">
+            <a href=""> &copy Hisense Ecuador 2022</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
