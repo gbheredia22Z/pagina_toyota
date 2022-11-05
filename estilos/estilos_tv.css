@@ -1,0 +1,779 @@
+@font-face {
+    font-family: HisenseAlfabet-Bold;
+    src: url(../fuentes/HisenseAlfabet-Bold.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Light;
+    src: url(../fuentes/HisenseAlfabet-Light.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Medium;
+    src: url(../fuentes/HisenseAlfabet-Medium.otf);
+}
+
+@font-face {
+    font-family: HisenseAlfabet-Regular;
+    src: url(../fuentes/HisenseAlfabet-Regular.otf);
+}
+
+@font-face {
+    font-family: Qatar2022-Bold;
+    src: url(../fuentes/Qatar2022-Bold.otf);
+}
+
+.container-fluid2 {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: HisenseAlfabet-Regular;
+}
+
+.logo {
+    width: 100%;
+}
+
+#header {
+    background-color: white;
+    padding: 1.5%;
+}
+
+.btn-outline-success {
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-color: #020202;
+    --bs-btn-hover-bg: #00b2ab;
+}
+
+.btn {
+    --bs-btn-border-width: 0px;
+}
+
+#form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25remrgba(13, 110, 253, .25);
+}
+
+.ico>img {
+    width: 40px;
+}
+
+.navbar>.container {
+    justify-content: flex-start;
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+
+
+.nav-item {
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+.nav-link {
+    color: black;
+}
+
+#hisense {
+    font-family: HisenseAlfabet-Bold;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+#nuestros{
+    
+    text-align: center;
+    margin: auto;
+}
+
+#conoce{
+    margin-top: 25px;
+}
+
+
+/* #col{
+    padding-right: 2px;
+} */
+
+.card {
+    border-radius: 0px;
+    --bs-card-inner-border-radius: 0px;
+    --bs-card-border-color: none;
+}
+
+#texto-card {
+    color: white;
+    font-family: HisenseAlfabet-Medium;
+    font-size: 28px;
+}
+
+#enlace-ver {
+    font-size: 18px;
+    font-family: HisenseAlfabet-Light;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#ver-mas {
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    --bs-btn-border-width: 2.5px;
+    transition: border-color 0.5s color 0.5s;
+}
+
+#ver-mas:hover {
+    color: #00b2ab;
+    background-color: transparent;
+    border-color: #00b2ab;
+}
+
+#bsc {
+    width: 40%;
+    padding: 1%;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-color: #00B2AB;
+    border-color: white;
+}
+
+#boton {
+
+
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    --bs-btn-border-width: 2.5px;
+
+    transition: border-color 0.5s color 0.5s;
+}
+
+#boton:hover {
+    color: #00b2ab;
+    background-color: transparent;
+    border-color: #00b2ab;
+}
+
+
+
+#enlace:hover {
+    color: #00b2ab;
+}
+
+.text-start {
+    color: black;
+    font-size: 13px;
+}
+
+.text-start>a {
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+hr {
+    border: 1px solid #A4A6A9;
+    opacity: none;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.tittle {
+    width: 30%;
+    margin-left: 5%;
+
+}
+
+#form-control {
+    width: 40%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: #00B2AB;
+    border-color: white;
+}
+
+#d-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#search {
+    background-color: #00b2ac00;
+    width: 90%;
+    margin: 0%;
+    border: 1px solid #a4a6a900 !important;
+    border-bottom: 1px solid #A4A6A9 !important;
+    border-radius: 0% !important;
+}
+
+.col>a {
+    color: #848484;
+    text-decoration: none;
+}
+
+.terminos {
+    background-color: #eeeeee;
+    padding: 3%;
+}
+
+#experiencias {
+    padding-top: 10px;
+    padding-left: 1px;
+
+}
+
+#titulo {
+    font-size: 25px;
+
+}
+
+#gaming-descrip h5 {
+    font-family: HisenseAlfabet-Bold;
+}
+
+#gaming-descrip p {
+    font-size: .8rem;
+    text-align: justify;
+}
+
+
+#boton-ex {
+    color: #00b2ab;
+    background-color: transparent;
+    border-color: #00b2ab;
+    border-radius: 20px;
+    transition: border-color 0.5s color 0.5s;
+    --bs-btn-border-width: 2.5px;
+
+}
+
+#boton-ex:hover {
+    color: #fff;
+    background-color: #00b2ab;
+    border-color: #fff;
+}
+
+#vidaa {
+    width: 14%;
+    position: relative;
+    top: 10%;
+    right: 20%;
+}
+
+#titulo-vd {
+    font-size: 20px;
+    position: relative;
+    top: 18%;
+    right: 20%;
+    font-family: HisenseAlfabet-Medium;
+    color: white;
+}
+
+#txt-vidaa {
+    position: relative;
+    top: 22%;
+    width: 53%;
+    left: 6%;
+    color: white;
+    font-size: 18px;
+    font-family: HisenseAlfabet-Light;
+}
+
+#boton-vida {
+    position: relative;
+    top: 25%;
+    right: 20%;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    transition: border-color 0.5s color 0.5s;
+    --bs-btn-border-width: 2.5px;
+}
+
+#boton-vida:hover {
+    color: #00b2ab;
+    background-color: transparent;
+    border-color: #00b2ab;
+}
+
+
+
+#top-text {
+    text-align: left;
+    position: relative;
+    top: 50%;
+}
+
+#enlace-3:hover {
+    color: #00b2ab;
+}
+
+.parrafo {
+    padding-left: 20%;
+
+    color: white;
+    text-align: left !important;
+    font-family: HisenseAlfabet-Bold;
+}
+
+.suscribe {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #00B2AB;
+    background-color: white;
+    border-radius: 25px !important;
+    margin-top: 0.8%;
+    right: 9%;
+    height: 45px;
+    font-size: 15px;
+    z-index: 3 !important;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.suscribe:hover {
+    color: white;
+    background-color: #000000;
+    z-index: 3 !important;
+}
+
+.suscripcion {
+    background-color: #00B2AB;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    height: 300px !important;
+}
+
+.logo-w {
+    width: 20%;
+
+
+}
+
+#form-control {
+    width: 40% !important;
+    z-index: 2 !important;
+    left: 3%;
+    height: 60px;
+    border-radius: 25px !important;
+    background-color: #00B2AB;
+    border-color: white;
+
+}
+
+#form-control:focus {
+    background-color: #00B2AB;
+    color: white;
+}
+
+#form-control::-webkit-input-placeholder {
+    color: white;
+
+}
+
+.parrafo>p {
+
+
+    font-size: 25px;
+}
+
+.buscar {
+    margin-top: 5%;
+}
+
+.d-flex {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #00b2ac00;
+
+}
+
+.modal-header {
+    background-color: #00b2ac;
+    color: white;
+
+}
+
+.modal-body {
+    background-color: #ffffff;
+    color: rgb(6, 6, 6);
+}
+
+.d-flex>#search::-webkit-input-placeholder {
+    color: black;
+    font-size: 10px;
+}
+
+#cl {
+    font-size: 35px;
+}
+
+#ico{
+    text-align: right;
+}
+
+footer {
+    font-size: 14px;
+    font-family: HisenseAlfabet-Regular;
+}
+
+.buttonIn>input::-webkit-input-placeholder {
+    color: white;
+    padding-left: 5px;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    #top-text {
+        top: 40%;
+    }
+
+    #txt-vidaa {
+        font-size: 16px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 1080px) {
+    .suscribe {
+        margin-top: 0.8%;
+        right: 12%;
+    }
+
+    #form-control {
+        width: 40% !important;
+        left: 4%;
+    }
+
+    #top-text {
+        top: 35%;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    #form-control {
+        width: 40% !important;
+        left: 5%;
+    }
+
+    #titulo {
+        font-size: 20px;
+    }
+
+
+    #titulo-vd {
+        font-size: 25px;
+        top: 8%;
+        right: 0;
+   
+    }
+
+    #txt-vidaa {
+        top: 8%;
+        width: 100%;
+        left: 0;
+        font-size: 18px;
+        
+    }
+
+    #vidaa {
+        
+        position: relative;
+        top: 2%;
+        right: 0;
+    }
+
+    #boton-vida {
+        
+        top: 10%;
+        right: 0;
+        
+    }
+    
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .suscribe {
+        margin-top: 0.8%;
+        right: 13%;
+    }
+
+    #top-text {
+        top: 25%;
+    }
+    .nav-item {
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .suscribe {
+        margin-top: 1%;
+        right: 14.5%;
+    }
+
+    #texto-card {
+        font-size: 20px;
+    }
+
+    #enlace-ver {
+        font-size: 15px;
+
+    }
+
+    #ver-mas {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 820px) {
+    .suscribe {
+        margin-top: 1.2%;
+        right: 16%;
+    }
+
+    #txt-vidaa {
+        padding: 10px;
+        font-size: 16px;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #titulo-vd {
+        font-size: 23px;
+        top: 7%;
+    }
+
+    #txt-vidaa {
+        top: 6%;
+        font-size: 15px;  
+    }
+
+    #boton-vida {   
+        top: 3%;  
+    }
+
+    #top-text {
+        top: 19%;
+    }
+
+    #cl {
+        font-size: 25px;
+    }
+
+    
+    #texto-card {
+        font-size: 16px;
+    }
+
+    #enlace-ver {
+        font-size: 14px;
+
+    }
+
+    #ver-mas {
+        font-size: 14px;
+       
+    }
+
+    #top-text>p{
+        margin-bottom: 0 !important;
+    }
+    
+    .logo-w {
+        width: 40%;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .suscribe {
+        margin-top: 0;
+        right: 0;
+        height: 40px;
+        font-size: 10px;
+        border-radius: 0px 25px 25px 0px !important ;
+    }
+
+
+    #form-control {
+        left: 0;
+        height: 40px;
+        border-radius: 25px 0px 0px 25px !important ;
+    }
+
+    #titulo-vd {
+        font-size: 22px;
+        top: 6%;
+   
+    }
+
+    #txt-vidaa {
+        top: 6%;
+        font-size: 12px;
+        
+    }
+
+    #boton-vida {
+        font-size: 13px;
+        top: 3%;
+
+    }
+    
+    #top-text {
+        top: 11%;
+        left: -3%;
+    }
+
+    #cl {
+        margin-top: -4%;
+        font-size: 20px;
+    }
+    
+    #texto-card {
+        font-size: 14px;
+    }
+
+    #enlace-ver {
+        font-size: 10px;
+    }
+
+    #ver-mas {
+        border-radius: 16px;
+        font-size: 10px;   
+    }
+
+    .tittle {
+        width: 50%;
+        
+    }
+
+    .parrafo {
+        padding-left: 6%;
+       
+    }
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+    #titulo{
+        font-size: 16px;
+    }
+
+    #titulo-vd {
+        font-size: 18px;
+        top: 7%;
+   
+    }
+
+    #txt-vidaa {
+        top: 6%;
+        font-size: 10px;
+        
+    }
+
+
+    #boton-vida {
+        font-size: 11px;
+        top: 2%;
+
+    }
+
+
+    #top-text {
+        top: 9%;
+    }
+
+    #cl {
+        margin-top: -4%;
+        font-size: 16px;
+    }
+
+    
+    #texto-card {
+        font-size: 12px;
+    }
+
+    #enlace-ver {
+        font-size: 10px;
+
+    }
+
+    #ver-mas {
+        border-radius: 14px;
+        font-size: 10px;
+       
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    #cl {
+        margin-top: -8%;
+        font-size: 15px;
+    }
+
+    #top-text {
+        top: 6%;
+    }
+    #ver-mas {
+        border-radius: 12px;
+        font-size: 9px;
+       
+    }
+
+
+}
