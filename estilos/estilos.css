@@ -425,9 +425,19 @@ footer {
 
 }
 
+@media screen and (max-width: 1350px) {
+    .suscribe {
+        margin-top: 0.8%;
+        right: 10%;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
-    
+    .suscribe {
+        margin-top: 0.8%;
+        right: 12%;
+    }
     #top-text {
         top: 40%;
     }
@@ -524,7 +534,7 @@ footer {
 @media screen and (max-width: 900px) {
     .suscribe {
         margin-top: 1%;
-        right: 14.5%;
+        right: 15.5%;
     }
 
     #texto-card {
@@ -559,8 +569,17 @@ footer {
 
 }
 
+@media screen and (max-width: 780px) {
+    .suscribe {
+        margin-top: 1.2%;
+        right: 17%;
+    }
+    
+}
 
 @media screen and (max-width: 768px) {
+    
+
 
     #titulo-vd {
         font-size: 23px;
